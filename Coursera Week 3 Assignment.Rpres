@@ -1,0 +1,36 @@
+Coursera Data Products: Week 3 Shiny Assignment
+========================================================
+author: James Griffin
+date: 22 Jan 2015
+
+Mall expenditure
+========================================================
+
+Do you know how much you are spending at shopping malls? If not then you should consider the following things:
+
+- How many times do you visit malls (per month)
+- How much money do you spend on a typical visit to a mall
+
+Knowing your monthly spend at malls can really help you budget the rest of your disposable income!
+
+US Expenditure
+========================================================
+
+If people spent less money in malls, then they would be able to spend more on Health, Personal Care and Private Education, which historically recieve small amounts of one's income:
+
+US Personal Expenditure (billions of $)
+
+```{r, echo=FALSE}
+as.table(USPersonalExpenditure[1:5, 1:3]) 
+```
+
+ShinyApp: Mall Expenditure
+========================================================
+
+Use the ShinyApp I have created to measure how much you spend at shopping malls per month
+
+Access the app at ShinyApps: http://jtgriffin.shinyapps.io/Assignment
+
+========================================================
+
+Thank you for your time :)
